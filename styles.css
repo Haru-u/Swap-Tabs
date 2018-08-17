@@ -1,0 +1,56 @@
+
+#all {
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+span {
+    border: 1pt solid black;
+    padding: 5px;
+    position: relative;
+    left: 5vw;
+    top: 1vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#s1{
+    background-color: mediumturquoise;
+}
+
+#s2{
+    background-color: mediumspringgreen;
+}
+
+#s3{
+    background-color: mediumorchid;
+}
+
+section{
+    margin: 0 auto;
+    position: relative;
+    top: 1vh;
+    width: 80%;
+    height: 80%;
+    padding: 20;
+}
+
+#d1{
+    display: block;
+    visibility: visible;
+    background-color: mediumturquoise;
+}
+
+#d2{
+    display: none;
+    visibility: hidden;
+    background-color: mediumspringgreen;
+}
+
+#d3{
+    display: none;
+    visibility: hidden;
+    background-color: mediumorchid;
+}
